@@ -6,7 +6,7 @@
 int main()
 {
 
-    float inputRadie, circleRadie, diameter, circumference, area;
+    float inputRadie, centimeterRadie, diameter, circumference, area;
     // float area;
     // float omkrets;
     // float diameter;
@@ -14,9 +14,9 @@ int main()
     printf("Enter a radius (in meters): ");
     scanf("%f", &inputRadie);
 
-    circleRadie = inputRadie * 100;
-    diameter = circleRadie * 2;
-    circumference = 2 * M_PI * circleRadie;
+    centimeterRadie = inputRadie * 100;
+    diameter = centimeterRadie * 2;
+    circumference = 2 * M_PI * centimeterRadie;
     area = M_PI * pow(inputRadie, 2);
 
     printf("\nDiameter in cm is: %f", diameter);
